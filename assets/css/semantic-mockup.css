@@ -1,0 +1,50 @@
+
+header {    
+    background-color: red;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+ }
+
+header nav {
+    background-color: orange;
+    text-align: center;
+}
+
+header nav ul{
+    display: inline-block; 
+    
+}
+
+header nav ul a {
+    color: white;
+}
+
+main {
+    background-color: green;
+    padding: 10px;
+}
+
+main article {
+    display: block;
+    background-color: blue;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+article ul li{
+    padding: 5px;
+}
+
+article ol li{
+    padding: 5px;
+}
+
+footer {
+    color:white;
+    background-color: blueviolet;
+    text-align: center;    
+}
