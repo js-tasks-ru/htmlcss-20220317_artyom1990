@@ -1,18 +1,48 @@
 <!DOCTYPE html>
-<!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">       
+        <link rel="stylesheet" href="../../assets/css/main.css">        
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item" open>
+                <summary class="accordion__title">
+                    <p class="accordion__title_font">
+                        Accordion Item 1
+                    </p>
+                    <div class="accordion__arrow">
+                    </div>              
+                </summary>
+                <p class="accordion__data">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>                
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__title">
+                    <p class="accordion__title_font">
+                        Accordion Item 2
+                    </p>
+                    <div class="accordion__arrow">
+                    </div>              
+                </summary>
+                <p class="accordion__data">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__title">
+                    <p class="accordion__title_font">
+                        Accordion Item 3
+                    </p>
+                    <div class="accordion__arrow">
+                    </div>              
+                </summary>
+                <p class="accordion__data">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p> 
+            </details>
+        </div>
     </body>
 </html>
