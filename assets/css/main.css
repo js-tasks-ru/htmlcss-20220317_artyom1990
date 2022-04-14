@@ -17,6 +17,8 @@
     --error: var(--red);
     --success: var(--blue);
 
+    --content-background-color: #F9FAFC;;
+
     --primary: var(--blue);
     --primary-hover: var(--dark-blue);
     --secondary: var(--purple);
