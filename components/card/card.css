@@ -3,5 +3,31 @@
     width: 350px;
     height: 367px;
     border-radius: 12px;
+    
     background: var(--white);
+
+    display: flex;
+    flex-direction: column;
 }
+
+.card__body { 
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0px 25px;
+}
+
+.card__footer { 
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+
+    color: var(--black);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;    
+ }

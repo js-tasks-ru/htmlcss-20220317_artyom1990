@@ -24,6 +24,7 @@
     --secondary: var(--purple);
     --secondary-hover: var(--dark-purple);
 
+    --blue-color-1: #4263EB;
 }
 
 * {
