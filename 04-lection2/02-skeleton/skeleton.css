@@ -59,6 +59,6 @@
     height: var(--skeleton-line-height);
 }
 
-.skeleton__element_background {
+.skeleton__element {
     background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
 }
