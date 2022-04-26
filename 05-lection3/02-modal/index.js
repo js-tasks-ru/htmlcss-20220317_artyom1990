@@ -4,7 +4,7 @@
     const modalOpen = document.getElementById('modal-open');
 
     if (!close || !modalOpen || !modal) {
-        return;
+          return;
     }
 
     modalOpen.addEventListener('click', () => {
